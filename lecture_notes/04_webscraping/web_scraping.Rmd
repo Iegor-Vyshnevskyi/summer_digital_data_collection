@@ -25,7 +25,7 @@ output:
 if (!require(pacman)) install.packages("pacman")
 
 pacman::p_load(rvest, jsonlite, zoo, XML, ralger, janitor,
-               webdriver,
+               webdriver, purrr,
                webshot)
 
 # install.packages("remotes")
